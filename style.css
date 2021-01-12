@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a{
+ color: Black;
+}
+.nav-item a:hover{
+    color: #FF3187;
+}
+.carousel-item{
+    background-color: #FDEAE8;
+}
+.carousel-item img{
+    width: 100%;
+}
+h1,h2,h3,h5, .price{
+    font-weight: 600;
+}
+p{
+    text-align: justify;
+}
+.price{
+    color: #FF3187;
+}
+.btn-buy{
+    background-color: #FF3187;
+    color: white;
+    border-radius: 5px;
+}
+#category img{
+    height: 100px;
+}
+.cat1, .cat2, .cat3{
+    border-radius: 10px;
+}
+.cat1{
+    background-color: #FFA603;
+}
+.cat2{
+    background-color: #DC70D7;
+}
+.cat3{
+    background-color: #0200FF;
+}
+.card{
+    border: none;
+    border-radius: 5px;
+}
+#shoes .card img{
+    width: 70% !important;
+}
+.card img{
+    width: 70%;
+}
+#subscribe{
+    background-color: #FDEAE8;
+}
+#subscribe a{
+    padding: 3px 10px;
+}
+@media(max-width:768px){
+    .cat1, .cat2, .cat3{
+        margin-top: 10px;
+    }
+}
