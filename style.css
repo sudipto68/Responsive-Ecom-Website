@@ -8,7 +8,7 @@ body{
  color: Black !important;
 }
 .nav-item a:hover{
-    color: #FF3187;
+    color: #FF3187 !important;
 }
 .carousel-item{
     background-color: #FDEAE8;
