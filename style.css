@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .nav-item a{
- color: Black;
+ color: Black !important;
 }
 .nav-item a:hover{
     color: #FF3187;
